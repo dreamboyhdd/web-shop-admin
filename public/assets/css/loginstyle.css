@@ -1,0 +1,115 @@
+h4{
+    margin-top:10px;
+}
+.bold{
+    font-weight: bold;
+}
+.italic{
+    font-style: italic;
+}
+.mb30{
+    margin-bottom: 30px;
+}
+.mb10{
+    margin-bottom: 10px;
+}
+.mb5{
+    margin-bottom: 5px;
+}
+.red{
+    color: #d53e33;
+}
+.green{
+    color: #399953;
+}
+/* #root{
+    height: 100vh;
+} */
+.content-login {
+  background: url(/assets/img/bg2.jpg) no-repeat center top fixed;
+  background-color: #000;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding:50px;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.container-login {
+  border-radius: 30px;
+  min-height: 100px;
+  background-color: #fff;
+  padding: 40px 30px;
+}
+
+.col-form-label {
+    padding-top: calc(.4375rem + 1px);
+    padding-bottom: calc(.4375rem + 1px);
+    margin-bottom: 0;
+    font-size: inherit;
+    line-height: 1.5;
+    padding: 17px 5px 0 0;
+    text-align: right;
+}
+
+.logocustom{
+    margin-right: 10px;
+    max-width: 20px;
+}
+
+.login-button{
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    color: #d53e33;
+    font-weight: bold;
+    border-color: #399953;
+    background-color: #399953;
+}
+
+.login-button:hover, a:hover, .login-button:hover, .login-button:focus,.login-button:active{
+    color: #399953 !important;
+}
+
+.login-button::before {
+    content: '';
+    position: absolute;
+    z-index: -2;
+    left: -50%;
+    top: -50%;
+    width: 200%;
+    height: 200%;
+    background-color: #399953;
+    background-repeat: no-repeat;
+    background-size: 50% 50%, 50% 50%;
+    background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+    background-image: linear-gradient(#399953, #399953), linear-gradient(#fbb300, #fbb300), linear-gradient(#d53e33, #d53e33), linear-gradient(#377af5, #377af5);
+    animation: rotate 4s linear infinite;
+  }
+  .login-button::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    left: 2px;
+    top: 2px;
+    right: 2px;
+    bottom: 2px;
+    background: #fff;
+    color: #d53e33;
+    border-radius: 5px;
+  }
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+  @keyframes rotate {
+    100% {
+      transform: rotate(1turn);
+   }
+  }
+
+svg .iconcalendar{
+    display: none !important;
+}
+

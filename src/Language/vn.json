@@ -1,0 +1,9 @@
+{
+    "Header": {
+        "Vietnamese": "Tiếng Việt",
+        "English": "Tiếng Anh"
+    },
+    "Vehicle":{
+        "ListVehicle":"DANH SÁCH PHƯƠNG TIỆN"
+    }
+}
